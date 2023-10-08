@@ -1,2 +1,2 @@
 # Emotion Detection
-Detects your emotion through your own webcam.
+Different emotion types are detected through the integration of information from facial expressions
