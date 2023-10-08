@@ -19,7 +19,7 @@ face_haar_cascade = cv2.CascadeClassifier(
 cap = cv2.VideoCapture(0)
 
 while True:
-    # captures frame and returns boolean value and captured image
+    # Captures frame and returns boolean value and captured image
     ret, test_img = cap.read()
     if not ret:
         continue
@@ -30,7 +30,8 @@ while True:
     for (x, y, w, h) in faces_detected:
         cv2.rectangle(test_img, (x, y), (x + w, y + h),
                       (255, 0, 0), thickness=7)
-        # cropping region of interest i.e. face area from  image
+
+        # Cropping region of interest i.e. face area from  image
         roi_gray = gray_img[y:y + w, x:x + h]
         roi_gray = cv2.resize(roi_gray, (224, 224))
         img_pixels = image.img_to_array(roi_gray)
@@ -54,6 +55,6 @@ while True:
 
     if cv2.waitKey(10) == ord('q'):  # wait until 'q' key is pressed
         break
-        
+
 cap.release()
 cv2.destroyAllWindows
