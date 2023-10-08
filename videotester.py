@@ -8,7 +8,7 @@ from keras.preprocessing import image
 import warnings
 warnings.filterwarnings("ignore")
 
-# load model
+# loading model
 model = load_model("best_model.h5")
 
 
