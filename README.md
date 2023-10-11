@@ -1,2 +1,2 @@
 # Emotion Detection
-Different emotion types are detected through the integration of information from facial expressions.
+This project is aimed at developing an emotion detection system that uses facial expressions as input.
