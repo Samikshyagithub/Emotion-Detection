@@ -4,5 +4,6 @@ This project aims to develop an emotion detection system that uses facial expres
 # Installation
 
 Clone the repository to your local machine:
-git clone https://github.com/yourusername/emotion-detection-facial-expressions.git
+git clone
+
 
