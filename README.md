@@ -5,5 +5,6 @@ This project aims to develop an emotion detection system that uses facial expres
 
 Clone the repository to your local machine:
 git clone
+https://github.com/Samikshyagithub/Emotion-Detection.git
 
 
